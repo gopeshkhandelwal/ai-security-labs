@@ -6,6 +6,10 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from model.simple_cnn import SimpleCNN
 from utils.visualize import compare_images
+import os
+
+# Create results directory if it doesn't exist
+os.makedirs("results", exist_ok=True)
 
 transform = transforms.ToTensor()
 test_data = datasets.MNIST(root="./data", train=False, transform=transform, download=True)
@@ -30,5 +34,6 @@ perturbed = torch.clamp(image + epsilon * data_grad.sign(), 0, 1)
 adv_output = model(perturbed)
 adv_pred = adv_output.argmax(dim=1)
 
+print("Saving image to results/original_vs_adversarial_1.png")
 compare_images(image, perturbed, pred.item(), adv_pred.item(), "results/original_vs_adversarial_1.png")
 print(f"Original: {pred.item()}, Adversarial: {adv_pred.item()}")

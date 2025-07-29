@@ -1,10 +1,15 @@
 import torch
+import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from model.simple_cnn import SimpleCNN
 from utils.visualize import compare_images
+import os
+
+# Create results directory if it doesn't exist
+os.makedirs("results", exist_ok=True)
 
 transform = transforms.ToTensor()
 test_data = datasets.MNIST(root="./data", train=False, transform=transform, download=True)

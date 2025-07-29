@@ -12,8 +12,8 @@ Hands-on labs for AI/ML/LLM Security. Simulating OWASP ML Top 10 attacks and def
 ```bash
 pip install -r requirements.txt
 cd owasp/ML01_input_manipulation
-python attack_fgsm.py     # Run attack
-python defense_fgsm.py    # Run detection & defense
+python owasp/ML01_input_manipulation/attack_fgsm.py     # Run attack
+python owasp/ML01_input_manipulation/defense_fgsm.py    # Run detection & defense
 
 ## License
 See the [LICENSE](./LICENSE) file for full details.

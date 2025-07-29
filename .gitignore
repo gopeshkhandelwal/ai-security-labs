@@ -52,4 +52,43 @@ site/
 coverage/
 htmlcov/
 
+# === AI/ML Specific ===
+# Trained models
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.pkl
+*.joblib
+*.model
+
+# Model checkpoints
+checkpoints/
+models/
+weights/
+
+# Result outputs
+results/
+outputs/
+logs/
+wandb/
+mlruns/
+
+# Generated images and visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Dataset files (keep structure but ignore data)
+data/
+
+# Jupyter notebook outputs
+*.ipynb
+
 resources/
