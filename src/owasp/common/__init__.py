@@ -3,6 +3,9 @@ OWASP ML Security Labs - Common Utilities.
 
 This module contains OWASP-specific utilities, configurations, and helper functions
 used across different OWASP ML security lab modules.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import json

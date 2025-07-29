@@ -3,6 +3,9 @@ Common utilities for AI Security Labs.
 
 This module contains shared utilities, constants, and helper functions
 used across different lab modules.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import os

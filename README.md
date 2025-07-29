@@ -84,5 +84,6 @@ is_adversarial, detection_info = defense.detect_adversarial_combined(data, label
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
+**Author**: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
 
 **🔒 Build secure, robust ML systems with hands-on adversarial learning!**

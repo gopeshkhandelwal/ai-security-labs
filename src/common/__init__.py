@@ -3,6 +3,9 @@ Common package for AI Security Labs.
 
 This package contains shared utilities, logging configuration,
 and common functionality used across all lab modules.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 from .logging_config import setup_logging, get_logger, LoggerMixin

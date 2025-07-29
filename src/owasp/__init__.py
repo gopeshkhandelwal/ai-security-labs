@@ -25,6 +25,9 @@ Each lab follows the OWASP structure:
 Usage:
     from src.owasp.ml01_input_manipulation import FGSMAttacker, AdversarialDefense
     from src.owasp.ml01_input_manipulation.model import SimpleCNN
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 __version__ = "1.0.0"

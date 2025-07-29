@@ -3,6 +3,9 @@ OWASP ML01: Adversarial Defense System.
 
 Multi-method defense system for detecting and mitigating FGSM attacks,
 implementing detection strategies outlined in OWASP ML01 defense guidelines.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import torch

@@ -3,6 +3,9 @@ Common logging configuration for AI Security Labs.
 
 This module provides centralized logging configuration with proper formatting,
 file rotation, and different log levels for development and production.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import logging

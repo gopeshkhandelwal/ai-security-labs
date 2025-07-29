@@ -3,6 +3,9 @@ OWASP ML01: Fast Gradient Sign Method (FGSM) Attack Implementation.
 
 Enterprise-grade adversarial attack implementation demonstrating input manipulation
 vulnerabilities as outlined in OWASP ML01 guidelines.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import torch

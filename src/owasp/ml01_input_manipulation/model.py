@@ -4,6 +4,9 @@ OWASP ML01: SimpleCNN Model for Input Manipulation Lab.
 Enhanced CNN architecture optimized for adversarial analysis and security research.
 Includes comprehensive validation, gradient computation, and debugging capabilities
 for studying input manipulation attacks.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import torch

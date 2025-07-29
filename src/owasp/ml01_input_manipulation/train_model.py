@@ -3,6 +3,9 @@ OWASP ML01: Model Training Pipeline.
 
 Professional training pipeline for SimpleCNN model with comprehensive logging,
 progress tracking, and model validation optimized for adversarial research.
+
+Author: Gopesh Khandelwal <gopeshkhandelwal@gmail.com>
+License: CC BY-NC 4.0
 """
 
 import torch
